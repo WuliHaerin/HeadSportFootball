@@ -22,6 +22,7 @@ public class GameManager : MonoBehaviour
     private Vector3 player1BallStartPos, player2BallStartPos;
     private int time;
     public bool isContinue;
+    public bool isCancelAd;
 
     private int p1ShotCount, p2ShotCount;
     public int Player1ShotCount
@@ -101,6 +102,7 @@ public class GameManager : MonoBehaviour
         ballShadow.GetComponent<Renderer>().sortingOrder = -50;
 
         Init();
+        isCancelAd = false;
 
         time = AssetManager.Use.timesArray[PlayerPrefs.GetInt(VariablesName.Time , 0)];
         timeLabel.text = time.ToString("00");
@@ -361,7 +363,7 @@ public class GameManager : MonoBehaviour
                     gameOverMenu.transform.GetChild(0).GetChild(0).GetComponent<SpriteRenderer>().sprite = player1.myFace[0];
                     gameOverMenu.transform.GetChild(1).GetChild(0).GetComponent<SpriteRenderer>().sprite = player2.myFace[1];
                     gameOverMenu.transform.GetChild(2).GetComponent<TMP_Text>().text = p1Name.text + " 赢";
-                    Invoke("SetGameUnActive", 1);
+                    StartCoroutine("SetGameUnActive");
                 }
                 else if (p1Score < p2Score )
                 {
@@ -370,7 +372,7 @@ public class GameManager : MonoBehaviour
                     gameOverMenu.transform.GetChild(0).GetChild(0).GetComponent<SpriteRenderer>().sprite = player1.myFace[1];
                     gameOverMenu.transform.GetChild(1).GetChild(0).GetComponent<SpriteRenderer>().sprite = player2.myFace[0];
                     gameOverMenu.transform.GetChild(2).GetComponent<TMP_Text>().text = p2Name.text + " 赢";
-                    Invoke("SetGameUnActive", 6);
+                    StartCoroutine("SetGameUnActive");
                 }
                 else
                 {
@@ -379,15 +381,16 @@ public class GameManager : MonoBehaviour
                     gameOverMenu.transform.GetChild(0).GetChild(0).GetComponent<SpriteRenderer>().sprite = player1.myFace[1];
                     gameOverMenu.transform.GetChild(1).GetChild(0).GetComponent<SpriteRenderer>().sprite = player2.myFace[1];
                     gameOverMenu.transform.GetChild(2).GetComponent<TMP_Text>().text = "平局";
-                    Invoke("SetGameUnActive", 6);
+                    StartCoroutine("SetGameUnActive");
                 }
             }
         }
     }
 
-    public void SetGameUnActive()
+    public IEnumerator SetGameUnActive()
     {
-        if(!isContinue)
+        yield return new WaitForSeconds(0.1f);
+        if (!isContinue)
         {
             gameMode = GameMode.END;
             ball.GetComponent<Rigidbody2D>().isKinematic = true;
@@ -428,6 +431,7 @@ public class GameManager : MonoBehaviour
         ball.SetActive(!a);
         inGameButton.SetActive(!a);
         adPanel.SetActive(a);
+        Time.timeScale = a == true ? 0 : 1;
         return;
     }
 
