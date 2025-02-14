@@ -437,7 +437,7 @@ public class GameManager : MonoBehaviour
 
     public void ClickBtn()
     {
-        AdManager.ShowVideoAd("192if3b93qo6991ed0",
+        AdManager.ShowVideoAd("505qq8lalqbelfd0in",
             (bol) => {
                 if (bol)
                 {
@@ -470,7 +470,7 @@ public class GameManager : MonoBehaviour
     {
         gameOverMenu.SetActive(true);
 
-        AdManager.ShowInterstitialAd("1lcaf5895d5l1293dc",
+        AdManager.ShowInterstitialAd("2ac67ffi09nl8b1hed",
     () => {
         Debug.LogError("--插屏广告完成--");
 

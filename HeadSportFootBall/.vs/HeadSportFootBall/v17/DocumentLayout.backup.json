@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UnityProject\\HeadSportFootball\\HeadSportFootBall\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D62DD0E3-E2AA-9345-9E43-D5F51DED9D8D}|Assembly-CSharp.csproj|d:\\unityproject\\headsportfootball\\headsportfootball\\assets\\football\\scripts\\ingame\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62DD0E3-E2AA-9345-9E43-D5F51DED9D8D}|Assembly-CSharp.csproj|solutionrelative:assets\\football\\scripts\\ingame\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62DD0E3-E2AA-9345-9E43-D5F51DED9D8D}|Assembly-CSharp.csproj|d:\\unityproject\\headsportfootball\\headsportfootball\\assets\\football\\scripts\\cebianlanmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62DD0E3-E2AA-9345-9E43-D5F51DED9D8D}|Assembly-CSharp.csproj|solutionrelative:assets\\football\\scripts\\cebianlanmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62DD0E3-E2AA-9345-9E43-D5F51DED9D8D}|Assembly-CSharp.csproj|d:\\unityproject\\headsportfootball\\headsportfootball\\assets\\football\\scripts\\admanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D62DD0E3-E2AA-9345-9E43-D5F51DED9D8D}|Assembly-CSharp.csproj|solutionrelative:assets\\football\\scripts\\admanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\UnityProject\\HeadSportFootball\\HeadSportFootBall\\Assets\\Football\\Scripts\\InGame\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Football\\Scripts\\InGame\\GameManager.cs",
+              "ToolTip": "D:\\UnityProject\\HeadSportFootball\\HeadSportFootBall\\Assets\\Football\\Scripts\\InGame\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Football\\Scripts\\InGame\\GameManager.cs",
+              "ViewState": "AgIAAI8BAAAAAAAAAAAmwJQBAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T02:42:46.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdManager.cs",
+              "DocumentMoniker": "D:\\UnityProject\\HeadSportFootball\\HeadSportFootBall\\Assets\\Football\\Scripts\\AdManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Football\\Scripts\\AdManager.cs",
+              "ToolTip": "D:\\UnityProject\\HeadSportFootball\\HeadSportFootBall\\Assets\\Football\\Scripts\\AdManager.cs",
+              "RelativeToolTip": "Assets\\Football\\Scripts\\AdManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T02:42:38.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CebianlanManager.cs",
+              "DocumentMoniker": "D:\\UnityProject\\HeadSportFootball\\HeadSportFootBall\\Assets\\Football\\Scripts\\CebianlanManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Football\\Scripts\\CebianlanManager.cs",
+              "ToolTip": "D:\\UnityProject\\HeadSportFootball\\HeadSportFootBall\\Assets\\Football\\Scripts\\CebianlanManager.cs",
+              "RelativeToolTip": "Assets\\Football\\Scripts\\CebianlanManager.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAIwD8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T02:41:35.999Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
